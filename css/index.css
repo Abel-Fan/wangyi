@@ -1,0 +1,56 @@
+html,body{
+    height:100%;width:100%;
+    margin:0;padding:0;
+}
+img{
+    display: block;
+}
+.section{
+    overflow: hidden;
+}
+.section .bg_img{
+    position:absolute;
+    top:0;left:0;
+}
+.section .hgroup{
+    width:560px;height:176px;
+    position:absolute;
+    left:0;right:0;
+    margin: 0 auto;top:25%;
+    color:#fff;
+    text-align: center;
+    background: url(../img/slogan.png) no-repeat;
+}
+.section:nth-child(2) .hgroup{
+    background: url(../img/t2.png) no-repeat;
+}
+.section p{
+    width:560px;height:176px;
+    color:#94a7c6;
+    position:absolute;
+    top:40%;left:30%;
+    opacity: 0;
+}
+.section .bg_1{
+    position:absolute;top:0;left:0;
+    width:100%;height:100%;
+    background:url(../img/bg_1_1.png) no-repeat bottom left;
+}
+.section:nth-child(2) .bg_1{
+    background:url(../img/bg23.png) no-repeat center bottom;
+}
+.section .bg_2{
+    position:absolute;top:0;left:0;
+    width:100%;height:100%;
+    background:url(../img/bg_1_2.png) no-repeat bottom left;
+}
+.section:nth-child(2) .bg_left{
+    position:absolute;top:0;left:10%;
+    width:100%;height:100%;
+    background:url(../img/bg22.png) no-repeat left;
+}
+.section:nth-child(2) .bg_right{
+    position:absolute;top:0;right:10%;
+    width:100%;height:100%;
+    background:url(../img/bg21.png) no-repeat right;
+}
